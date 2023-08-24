@@ -1,0 +1,79 @@
+.ipynb_checkpoints/
+#*.ipynb
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+!test_model_data_base/data
+test_model_data_base/data/*
+!test_model_data_base/data/test_data/
+trash_it_now/
+*.pyc
+mechanisms/channels/x86_64
+mechanisms/channels/*~
+mechanisms/netcon/x86_64
+mechanisms/netcon/*~
+getting_started/barrel_cortex/*
+!getting_started/barrel_cortex/*.7z.*
+MOEA_EH_model_visualization/**/*~
+.*
+simrun2/used_seeds
+mechanisms/channels_py3/x86_64/*
+mechanisms/channels_py2/x86_64/*
+mechanisms/netcon_py3/x86_64/*
+mechanisms/netcon_py2/x86_64/*
+
+#only template should be part of repository
+getting_started/biophysical_constraints/86_CDK_20041214_BAC_run5_soma_Hay2013_C2center_apic_rec.param
+getting_started/functional_constraints/network.param
+getting_started/example_simulation_data/C2_evoked_UpState_INH_PW_1.0_SuW_0.5_C2center/20150815-1530_20240/20240_network_model.param
+getting_started/example_simulation_data/C2_evoked_UpState_INH_PW_1.0_SuW_0.5_C2center/20150815-1530_20240/20240_neuron_model.param
+
+# Eclipse Core
+.project
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# PyDev specific (Python IDE for Eclipse)
+*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
+.cproject
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+# Java annotation processor (APT)
+.factorypath
+
+# PDT-specific (PHP Development Tools)
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# Tern plugin
+.tern-project
+
+# TeXlipse plugin
+.texlipse
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Code Recommenders
+.recommenders/
+
+# Virtual enviroments
+venv/
